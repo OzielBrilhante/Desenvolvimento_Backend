@@ -1,0 +1,11 @@
+Titulo: Livros/the_prince.txt;Qtd Palavras: 52982;Qtd Bytes: 307808
+Titulo: Livros/princess_of_mars.txt;Qtd Palavras: 70478;Qtd Bytes: 399643
+Titulo: Livros/little_princess.txt;Qtd Palavras: 69388;Qtd Bytes: 391923
+Titulo: Livros/princess_of_mars.txt;Qtd Palavras: 70478;Qtd Bytes: 399643
+Titulo: Livros/the_prince.txt;Qtd Palavras: 52982;Qtd Bytes: 307808
+Titulo: Livros/the_prince.txt;Qtd Palavras: 52982;Qtd Bytes: 307808
+Titulo: Livros/princess_of_mars.txt;Qtd Palavras: 70478;Qtd Bytes: 399643
+Titulo: Livros/little_princess.txt;Qtd Palavras: 69388;Qtd Bytes: 391923
+Titulo: the_prince;Qtd Palavras: 52982;Qtd Bytes: 307808
+Titulo: princess_of_mars;Qtd Palavras: 70478;Qtd Bytes: 399643
+Titulo: little_princess;Qtd Palavras: 69388;Qtd Bytes: 391923
