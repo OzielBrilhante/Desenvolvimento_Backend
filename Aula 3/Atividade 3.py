@@ -12,7 +12,7 @@ def guardar_info(titulo, quant_palavras, quant_bytes):
     info = f"" \
            f"Titulo: {titulo};" \
            f"Qtd Palavras: {quant_palavras};" \
-           f"Qtd Bytes: {quant_bytes}\n"
+           f"Qtd MegaBytes: {quant_bytes}\n"
 
     with open("database.txt", "a", encoding="utf-8") as file_object:
         file_object.write(info)
@@ -26,7 +26,6 @@ def ler_database():
 
 
 while True:
-
     opcao = int(input(
         "1 - The Prince\n"
         "2 - Princess of Mars\n"
@@ -41,7 +40,7 @@ while True:
         guardar_info(
             "the_prince",
             contador_palavras('Livros/the_prince.txt'),
-            os.path.getsize('Livros/the_prince.txt')
+            (os.path.getsize('Livros/the_prince.txt')/1000000)
         )
 
     elif opcao == 2:
@@ -49,7 +48,7 @@ while True:
         guardar_info(
             "princess_of_mars",
             contador_palavras('Livros/princess_of_mars.txt'),
-            os.path.getsize('Livros/princess_of_mars.txt')
+            (os.path.getsize('Livros/princess_of_mars.txt')/1000000)
         )
 
     elif opcao == 3:
@@ -57,7 +56,7 @@ while True:
         guardar_info(
             "little_princess",
             contador_palavras('Livros/little_princess.txt'),
-            os.path.getsize('Livros/little_princess.txt')
+            (os.path.getsize('Livros/little_princess.txt')/1000000)
         )
 
     elif opcao == 9:
